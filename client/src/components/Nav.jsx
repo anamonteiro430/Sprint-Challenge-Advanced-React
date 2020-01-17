@@ -12,8 +12,11 @@ const Navbar = () => {
 
 	return (
 		<nav>
-			<h1>Women Soccer Players</h1>
-			<div className=''>
+			<div>
+				<h1>Women Soccer Players</h1>
+			</div>
+
+			<div className='r'>
 				<div className='rainbow-toggle'>
 					<div
 						onClick={toggle}

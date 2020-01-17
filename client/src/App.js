@@ -3,6 +3,7 @@ import './App.css';
 import axios from 'axios';
 import PlayerList from './components/PlayerList';
 import Navbar from './components/Nav';
+import Form from './components/Form';
 
 export default class App extends Component {
 	state = {
@@ -29,6 +30,7 @@ export default class App extends Component {
 		return (
 			<div>
 				<Navbar />
+				<Form />
 
 				<PlayerList players={this.state.players} />
 			</div>

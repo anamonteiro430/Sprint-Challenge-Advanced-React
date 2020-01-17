@@ -61,3 +61,8 @@ nav {
 		#dd00f3
 	);
 }
+
+.r {
+	margin-left: 30%;
+	border: 2px solid green;
+}
