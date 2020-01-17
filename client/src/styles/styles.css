@@ -1,0 +1,63 @@
+nav {
+	align-items: center;
+	border-bottom: 1px solid rgb(221, 221, 221);
+	display: flex;
+	height: 70px;
+	justify-content: space-between;
+	padding: 0 3%;
+	width: 100%;
+	-webkit-box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
+	-moz-box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
+	box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
+}
+
+.rainbow_toggle {
+	background: papayawhip;
+	border-radius: 50px;
+	border: 1px solid black;
+	height: 20px;
+	position: relative;
+	width: 40px;
+	border: 2px solid red;
+}
+
+.toggle {
+	background: linear-gradient(
+		124deg,
+		#ff2400,
+		#e81d1d,
+		#e8b71d,
+		#e3e81d,
+		#1de840,
+		#1ddde8,
+		#2b1de8,
+		#dd00f3,
+		#dd00f3
+	);
+	cursor: pointer;
+	border-radius: 50px;
+	height: 18px;
+	left: 0;
+	position: absolute;
+	transition: 0.2s;
+	width: 20px;
+}
+
+.toggled {
+	left: 20px;
+}
+
+.rainbow-mode {
+	background: linear-gradient(
+		124deg,
+		#ff2400,
+		#e81d1d,
+		#e8b71d,
+		#e3e81d,
+		#1de840,
+		#1ddde8,
+		#2b1de8,
+		#dd00f3,
+		#dd00f3
+	);
+}

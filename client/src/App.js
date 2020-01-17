@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import axios from 'axios';
 import PlayerList from './components/PlayerList';
+import Navbar from './components/Nav';
 
 export default class App extends Component {
 	state = {
@@ -27,7 +28,8 @@ export default class App extends Component {
 	render() {
 		return (
 			<div>
-				<p>Test</p>
+				<Navbar />
+
 				<PlayerList players={this.state.players} />
 			</div>
 		);
