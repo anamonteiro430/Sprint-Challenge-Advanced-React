@@ -4,7 +4,6 @@ import Player from './Player';
 const PlayerList = props => {
 	return (
 		<div>
-			<h1>PlayerList</h1>
 			{props.players.map(player => (
 				<Player
 					player={player.name}

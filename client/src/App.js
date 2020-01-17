@@ -31,7 +31,6 @@ export default class App extends Component {
 			<div>
 				<Navbar />
 				<Form />
-
 				<PlayerList players={this.state.players} />
 			</div>
 		);
